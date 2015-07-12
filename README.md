@@ -27,9 +27,9 @@ $ apt-get install nginx
 
 ## Configuración
 
-* El archivo de configuración **nginx.conf** se encuentra en el directorio  */etc/nginx*
+El archivo de configuración **nginx.conf** se encuentra en el directorio  */etc/nginx*
 
-* Starting, Stopping, and Reloading Configuration
+### Starting, Stopping, and Reloading Configuration
 
 ```sh
 nginx -s signal
