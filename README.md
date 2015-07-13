@@ -48,7 +48,7 @@ Lista de procesos que ejecuta nginx
 $ ps -ax | grep nginx
 ```
 
-## Start / Restart / Stop Nginx Web Server
+### Start / Restart / Stop Nginx Web Server
 
 ```sh
 $ sudo service nginx start
