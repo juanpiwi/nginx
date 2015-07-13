@@ -45,7 +45,23 @@ Donde *signal* son alguna de la siguientes:
 Lista de procesos que ejecuta nginx
 
 ```sh
-ps -ax | grep nginx
+$ ps -ax | grep nginx
+```
+
+## Start / Restart / Stop Nginx Web Server
+
+```sh
+$ sudo service nginx start
+$ sudo service nginx stop
+$ sudo service nginx restart
+```
+
+OR
+
+```sh
+$ sudo /etc/init.d/nginx start
+$ sudo /etc/init.d/nginx stop
+$ sudo /etc/init.d/nginx restart
 ```
 
 
